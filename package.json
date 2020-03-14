@@ -1,0 +1,20 @@
+{
+  "name": "appstore-customerreviews",
+  "version": "0.0.1",
+  "author": "ManAnRuck",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "dev": "tsnd --respawn src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
