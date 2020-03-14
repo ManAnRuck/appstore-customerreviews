@@ -1,6 +1,6 @@
 {
   "name": "appstore-customerreviews",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "ManAnRuck",
   "license": "MIT",
   "main": "dist/index.js",

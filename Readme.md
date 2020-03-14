@@ -1,6 +1,6 @@
-# AppStore Comments
+# AppStore Reviews
 
-get Apple AppStore Comments by npm Package
+get Apple AppStore Reviews by npm Package
 
 ## install
 
@@ -20,6 +20,6 @@ const api = new AppStoreCustomerReviews({
   languageCode: "de"
 });
 
-api.getComments().then(console.log)
+api.getReviews().then(console.log)
 
 ```

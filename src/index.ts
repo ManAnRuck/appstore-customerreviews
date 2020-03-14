@@ -15,7 +15,7 @@ class AppStoreCustomerReviews {
     });
   }
 
-  public getComments = async () => {
+  public getReviews = async () => {
     let hasMore = true;
     let page = 1;
     let entries: AppStoreCustomerReviewEntry[] = [];
